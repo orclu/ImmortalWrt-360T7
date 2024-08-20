@@ -13,3 +13,5 @@
 sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 # 固件版本名称自定义
 sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='ImmortalWrt By lulu $(date +"%Y%m%d") '/g" package/base-files/files/etc/openwrt_release
+
+rm -rf ./feeds/packages/net/mosdns
