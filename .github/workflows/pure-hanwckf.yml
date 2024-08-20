@@ -57,7 +57,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
         
     - name: 更新软件源
-      run: cd openwrt && ./scripts/feeds update -a
+      run: cd openwrt && ./scripts/feeds update -a && rm -rf ./feeds/packages/net/mosdns && cp -r -f ./feeds/smpackage/mosdns ./feeds/packages/net/mosdns
 
     - name: 安装软件源
       run: cd openwrt && ./scripts/feeds install -a
