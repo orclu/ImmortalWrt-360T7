@@ -93,6 +93,8 @@ jobs:
         echo "status=success" >> $GITHUB_OUTPUT
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
+      with:
+        limit-access-to-actor: false
       if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
     - name: 整理固件
       id: organize
