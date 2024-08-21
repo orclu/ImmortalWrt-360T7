@@ -12,3 +12,5 @@
 
 ### 添加第三方订阅源
 sed -i '$a src-git-full small https://github.com/kenzok8/small-package' feeds.conf.default
+
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
