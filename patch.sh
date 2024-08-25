@@ -11,6 +11,8 @@ rm -rf ./feeds/packages/net/xray-core && cp -r -f ./feeds/small/xray-core ./feed
 rm -rf ./feeds/packages/net/xray-plugin && cp -r -f ./feeds/small/xray-plugin ./feeds/packages/net/xray-plugin
 rm -rf feeds/luci/applications/luci-app-passwall && cp -r -f ./feeds/small/luci-app-passwall ./feeds/luci/applications/luci-app-passwall
 
+rm -rf feeds/luci/applications/luci-app-ssr-plus && cp -r -f ./feeds/small/luci-app-ssr-plus ./feeds/luci/applications/luci-app-ssr-plus
+
 rm -rf feeds/packages/net/adguardhome && cp -r -f ./feeds/small/adguardhome ./feeds/packages/net/adguardhome
 
 rm -rf feeds/packages/lang/golang
