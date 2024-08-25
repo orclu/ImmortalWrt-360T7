@@ -3,12 +3,17 @@ rm -rf ./feeds/packages/net/mosdns && cp -r -f ./feeds/small/mosdns ./feeds/pack
 
 rm -rf ./feeds/packages/net/hysteria && cp -r -f ./feeds/small/hysteria ./feeds/packages/net/hysteria
 
-shadowsocksr-libev
-shadowsocks-rust
 
-dns2tcp
-ipt2socks
-shadow-tls
+
+rm -rf ./feeds/packages/net/shadowsocksr-libev && cp -r -f ./feeds/helloworld/shadowsocksr-libev ./feeds/packages/net/shadowsocksr-libev
+rm -rf ./feeds/packages/net/shadowsocks-rust && cp -r -f ./feeds/helloworld/shadowsocks-rust ./feeds/packages/net/shadowsocks-rust
+rm -rf ./feeds/packages/net/dns2tcp && cp -r -f ./feeds/helloworld/dns2tcp ./feeds/packages/net/dns2tcp
+
+rm -rf ./feeds/packages/net/ipt2socks && cp -r -f ./feeds/helloworld/ipt2socks ./feeds/packages/net/ipt2socks
+rm -rf ./feeds/packages/net/shadow-tls && cp -r -f ./feeds/helloworld/shadow-tls ./feeds/packages/net/shadow-tls
+rm -rf ./feeds/packages/net/chinadns-ng && cp -r -f ./feeds/helloworld/chinadns-ng ./feeds/packages/net/chinadns-ng
+
+
 
 rm -rf ./feeds/packages/net/v2ray-core && cp -r -f ./feeds/small/v2ray-core ./feeds/packages/net/v2ray-core
 rm -rf ./feeds/packages/net/v2ray-plugin && cp -r -f ./feeds/small/v2ray-plugin ./feeds/packages/net/v2ray-plugin
