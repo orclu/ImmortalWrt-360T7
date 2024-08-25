@@ -6,7 +6,7 @@ rm -rf ./feeds/packages/net/hysteria && cp -r -f ./feeds/small/hysteria ./feeds/
 
 
 rm -rf ./feeds/packages/net/shadowsocksr-libev && cp -r -f ./feeds/helloworld/shadowsocksr-libev ./feeds/packages/net/shadowsocksr-libev
-rm -rf ./feeds/packages/net/shadowsocks-rust && cp -r -f ./feeds/helloworld/shadowsocks-rust ./feeds/packages/net/shadowsocks-rust
+#rm -rf ./feeds/packages/net/shadowsocks-rust && cp -r -f ./feeds/helloworld/shadowsocks-rust ./feeds/packages/net/shadowsocks-rust
 rm -rf ./feeds/packages/net/dns2tcp && cp -r -f ./feeds/helloworld/dns2tcp ./feeds/packages/net/dns2tcp
 
 rm -rf ./feeds/packages/net/ipt2socks && cp -r -f ./feeds/helloworld/ipt2socks ./feeds/packages/net/ipt2socks
