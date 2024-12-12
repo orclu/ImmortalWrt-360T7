@@ -28,4 +28,4 @@ rm -rf feeds/luci/applications/luci-app-ssr-plus && cp -r -f ./feeds/small/luci-
 rm -rf feeds/packages/net/adguardhome && cp -r -f ./feeds/small/adguardhome ./feeds/packages/net/adguardhome
 
 rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
